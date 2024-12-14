@@ -101,10 +101,11 @@ row.activatable:active {
 }
 
 .view:hover {
-  background-color: rgba(212, 190, 152, 0.04);
+  background-color: rgb(95, 71, 45);
 }
+/* in a list of options */
 .view:selected:hover {
-  background-color: rgba(124, 111, 100, 0.616);
+  background-color: rgb(95, 71, 45);
 }
 .view:disabled {
   color: rgba(212, 190, 152, 0.5);
@@ -115,7 +116,7 @@ row.activatable:active {
 }
 .view selection,
 .view:selected {
-  background-color: rgba(124, 111, 100, 0.6);
+  background-color: rgb(95, 71, 45);
 }
 
 textview text {
