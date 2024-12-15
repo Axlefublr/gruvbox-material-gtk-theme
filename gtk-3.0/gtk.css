@@ -101,11 +101,11 @@ row.activatable:active {
 }
 
 .view:hover {
-	background-color: #68622c;
+	background-color: #5f472d;
 }
 /* in a list of options */
 .view:selected:hover {
-	background-color: #68622c;
+	background-color: #5f472d;
 }
 .view:disabled {
 	color: rgba(212, 190, 152, 0.5);
@@ -116,7 +116,7 @@ row.activatable:active {
 }
 .view selection,
 .view:selected {
-	background-color: #5f472d;
+	background-color: #68622c;
 }
 
 textview text {
@@ -3071,27 +3071,27 @@ radio {
 	margin: -8px;
 	padding: 8px;
 	border-radius: 9999px;
-	color: rgba(212, 190, 152, 0.7);
+	color: #d3ad5c;
 }
 check:drop(active),
 check:hover,
 radio:drop(active),
 radio:hover {
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: #5f472d;
 }
 check:focus,
 radio:focus {
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: #5f472d;
 }
 check:active,
 radio:active {
-	background-image: radial-gradient(circle, rgba(212, 190, 152, 0.12) 10%, transparent 0%);
+	background-image: radial-gradient(circle, #68622c 10%, transparent 0%);
 }
 check:checked,
 check:indeterminate,
 radio:checked,
 radio:indeterminate {
-	color: #928374;
+	color: #d3ad5c;
 }
 check:checked:drop(active),
 check:checked:hover,
@@ -3101,19 +3101,19 @@ radio:checked:drop(active),
 radio:checked:hover,
 radio:indeterminate:drop(active),
 radio:indeterminate:hover {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: #5f472d;
 }
 check:checked:focus,
 check:indeterminate:focus,
 radio:checked:focus,
 radio:indeterminate:focus {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: #68622c;
 }
 check:checked:active,
 check:indeterminate:active,
 radio:checked:active,
 radio:indeterminate:active {
-	background-image: radial-gradient(circle, rgba(124, 111, 100, 0.12) 10%, transparent 0%);
+	background-image: radial-gradient(circle, #e49641 10%, transparent 0%);
 }
 check:disabled,
 radio:disabled {
