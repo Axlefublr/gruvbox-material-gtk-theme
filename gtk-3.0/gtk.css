@@ -2985,21 +2985,21 @@ check:drop(active),
 check:hover,
 radio:drop(active),
 radio:hover {
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(228, 145, 178, 0.3);
 }
 check:focus,
 radio:focus {
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(181, 140, 198, 0.3);
 }
 check:active,
 radio:active {
-	background-image: radial-gradient(circle, rgba(212, 190, 152, 0.12) 10%, transparent 0%);
+	background-image: radial-gradient(circle, rgba(181, 140, 198, 0.12) 10%, transparent 0%);
 }
 check:checked,
 check:indeterminate,
 radio:checked,
 radio:indeterminate {
-	color: #7c6f64;
+	color: #b58cc6;
 }
 check:checked:drop(active),
 check:checked:hover,
@@ -3009,19 +3009,19 @@ radio:checked:drop(active),
 radio:checked:hover,
 radio:indeterminate:drop(active),
 radio:indeterminate:hover {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(228, 145, 178, 0.3);
 }
 check:checked:focus,
 check:indeterminate:focus,
 radio:checked:focus,
 radio:indeterminate:focus {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(181, 140, 198, 0.3);
 }
 check:checked:active,
 check:indeterminate:active,
 radio:checked:active,
 radio:indeterminate:active {
-	background-image: radial-gradient(circle, rgba(124, 111, 100, 0.12) 10%, transparent 0%);
+	background-image: radial-gradient(circle, rgba(181, 140, 198, 0.12) 10%, transparent 0%);
 }
 check:disabled,
 radio:disabled {
@@ -3102,7 +3102,7 @@ radio:indeterminate {
 	-gtk-icon-source: -gtk-recolor(url('icons/radio-mixed-symbolic.svg'));
 }
 radio:checked:not(:indeterminate) {
-	border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.125, to(#7c6f64), to(transparent));
+	border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.125, to(#b58cc6), to(transparent));
 }
 radio:checked:not(:indeterminate):disabled {
 	border-image-source: -gtk-gradient(
@@ -3157,7 +3157,7 @@ treeview.view check:checked,
 treeview.view check:indeterminate,
 treeview.view radio:checked,
 treeview.view radio:indeterminate {
-	color: #7c6f64;
+	color: #b58cc6;
 }
 treeview.view check:disabled,
 treeview.view radio:disabled {
