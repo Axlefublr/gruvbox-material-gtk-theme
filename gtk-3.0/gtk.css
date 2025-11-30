@@ -424,7 +424,7 @@ entry.warning:disabled {
 spinbutton:not(.vertical) progress,
 entry progress {
 	margin: 0 -8px -4px;
-	border-bottom: 2px solid #7c6f64;
+	border-bottom: 2px solid #b58cc6;
 	background-color: transparent;
 }
 .gedit-search-slider .linked:not(.vertical) > entry,
@@ -3225,7 +3225,7 @@ scale trough:disabled {
 }
 scale highlight {
 	transition: background-image 75ms cubic-bezier(0, 0, 0.2, 1);
-	background-image: image(#7c6f64);
+	background-image: image(#b58cc6);
 }
 scale highlight:disabled {
 	background-color: #292828;
@@ -3478,7 +3478,7 @@ levelbar block.low {
 }
 levelbar block.high,
 levelbar block:not(.empty) {
-	background-color: #7c6f64;
+	background-color: #b58cc6;
 }
 levelbar block.full {
 	background-color: #a9b665;
