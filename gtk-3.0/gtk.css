@@ -420,8 +420,9 @@ entry.warning:disabled {
 spinbutton:not(.vertical) progress,
 entry progress {
 	margin: 0 -8px -4px;
-	border-bottom: 2px solid #7c6f64;
+	border-bottom: 2px solid #b58cc6;
 	background-color: transparent;
+	/* «slider» */
 }
 .gedit-search-slider .linked:not(.vertical) > entry,
 spinbutton.vertical entry {
@@ -3231,15 +3232,18 @@ scale trough {
 	background-color: rgba(212, 190, 152, 0.3);
 }
 scale trough:disabled {
-	background-color: rgba(212, 190, 152, 0.2);
+	background-color: rgba(212, 190, 152, 0.15);
+	/* «slider» */
 }
 scale highlight {
 	transition: background-image 75ms cubic-bezier(0, 0, 0.2, 1);
-	background-image: image(#7c6f64);
+	background-image: image(#b58cc6);
+	/* «slider» */
 }
 scale highlight:disabled {
 	background-color: #282828;
-	background-image: image(rgba(212, 190, 152, 0.3));
+	background-image: image(rgba(181, 140, 198, 0.5));
+	/* «slider» */
 }
 scale fill {
 	transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
@@ -3272,10 +3276,12 @@ scale slider:disabled {
 		radial-gradient(circle, transparent 10%, transparent 0%);
 }
 scale slider:hover {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(202, 189, 164, 0.13);
+	/* «slider» */
 }
 scale slider:focus {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(202, 189, 164, 0.2);
+	/* «slider» */
 }
 scale slider:active {
 	transition:
@@ -3488,7 +3494,8 @@ levelbar block.low {
 }
 levelbar block.high,
 levelbar block:not(.empty) {
-	background-color: #7c6f64;
+	background-color: #b58cc6;
+	/* «slider» */
 }
 levelbar block.full {
 	background-color: #a9b665;
