@@ -113,7 +113,11 @@ row.activatable:active {
 .view:selected {
 	border-radius: 6px;
 }
-.view selection,
+.view selection {
+	color: #1f1e1e;
+	background-color: #b58cc6;
+	/* «text input selection» */
+}
 .view:selected {
 	background-color: rgba(124, 111, 100, 0.6);
 }
@@ -369,7 +373,9 @@ entry image.right {
 }
 spinbutton:not(.vertical) selection,
 entry selection {
-	background-color: rgba(124, 111, 100, 0.6);
+	color: #1f1e1e;
+	background-color: #b58cc6;
+	/* «text input selection» */
 }
 spinbutton.error:not(.vertical),
 entry.error {
