@@ -1591,7 +1591,7 @@ button.color {
 }
 
 *:visited {
-	color: #d3869b;
+	color: #e491b2;
 }
 *:visited:disabled {
 	color: rgba(212, 190, 152, 0.5);
@@ -1616,22 +1616,22 @@ button.link:link:active {
 	background-image: radial-gradient(circle, rgba(124, 111, 100, 0.12) 10%, transparent 0%);
 }
 button.link:visited {
-	color: #d3869b;
+	color: #e491b2;
 	box-shadow: none;
 	background-color: transparent;
 }
 button.link:visited:drop(active),
 button.link:visited:hover {
 	box-shadow: none;
-	background-color: rgba(211, 134, 155, 0.08);
+	background-color: rgba(228, 145, 178, 0.08);
 }
 button.link:visited:focus {
 	box-shadow: none;
-	background-color: rgba(211, 134, 155, 0.08);
+	background-color: rgba(228, 145, 178, 0.08);
 }
 button.link:visited:active {
 	box-shadow: none;
-	background-image: radial-gradient(circle, rgba(211, 134, 155, 0.12) 10%, transparent 0%);
+	background-image: radial-gradient(circle, rgba(228, 145, 178, 0.12) 10%, transparent 0%);
 }
 button.link:disabled {
 	color: rgba(212, 190, 152, 0.5);
