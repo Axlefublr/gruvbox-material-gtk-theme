@@ -101,10 +101,10 @@ row.activatable:active {
 }
 
 .view:hover {
-	background-color: rgba(212, 190, 152, 0.04);
+	background-color: rgba(181, 140, 198, 0.2);
 }
 .view:selected:hover {
-	background-color: rgba(124, 111, 100, 0.616);
+	background-color: rgba(181, 140, 198, 0.6);
 }
 .view:disabled {
 	color: rgba(212, 190, 152, 0.5);
@@ -118,7 +118,7 @@ row.activatable:active {
 	background-color: #b58cc6;
 }
 .view:selected {
-	background-color: rgba(124, 111, 100, 0.6);
+	background-color: rgba(181, 140, 198, 0.4);
 }
 
 textview text {
