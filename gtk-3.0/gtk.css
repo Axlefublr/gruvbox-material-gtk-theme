@@ -2471,7 +2471,9 @@ menu menuitem:hover,
 .menu menuitem:hover,
 .context-menu menuitem:hover {
 	transition: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	color: #1f1e1e;
+	background-color: rgb(181, 140, 198);
+	/* «menu» */
 }
 menu menuitem:disabled,
 .menu menuitem:disabled,
