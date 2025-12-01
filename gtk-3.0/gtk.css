@@ -2462,7 +2462,7 @@ menu menuitem:hover,
 .menu menuitem:hover,
 .context-menu menuitem:hover {
 	transition: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(181, 140, 198, 0.3);
 }
 menu menuitem:disabled,
 .menu menuitem:disabled,
