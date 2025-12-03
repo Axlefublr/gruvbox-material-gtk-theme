@@ -55,7 +55,7 @@ row.activatable:active {
 	-gtkwidget-text-handle-height: 24;
 	-gtkdialog-button-spacing: 4;
 	-gtkdialog-action-area-border: 4;
-	-gtk-secondary-caret-color: #7c6f64;
+	-gtk-secondary-caret-color: #e49641;
 	outline: 2px solid transparent;
 	outline-offset: -4px;
 	-gtk-outline-radius: 6px;
@@ -186,7 +186,7 @@ flowbox flowboxchild:selected {
 }
 
 label {
-	caret-color: #7c6f64;
+	caret-color: #e49641;
 }
 label.separator {
 	color: rgba(212, 190, 152, 0.7);
@@ -324,7 +324,7 @@ entry {
 	box-shadow: inset 0 -1px rgba(212, 190, 152, 0.3);
 	background-color: rgba(212, 190, 152, 0.04);
 	color: #d4be98;
-	caret-color: #7c6f64;
+	caret-color: #e49641;
 }
 spinbutton:focus:not(.vertical),
 entry:focus {
@@ -446,7 +446,7 @@ spinbutton.vertical entry {
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
 	background-color: #3c3836;
 	color: #d4be98;
-	caret-color: #7c6f64;
+	caret-color: #e49641;
 }
 .gedit-search-slider .linked:not(.vertical) > entry:focus,
 spinbutton.vertical entry:focus {
@@ -482,7 +482,7 @@ spinbutton.vertical entry.error {
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
 	background-color: #ea6962;
 	color: #000;
-	caret-color: #000;
+	caret-color: #e49641;
 }
 .gedit-search-slider .linked:not(.vertical) > entry.error:focus,
 spinbutton.vertical entry.error:focus {
@@ -525,7 +525,7 @@ spinbutton.vertical entry.warning {
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
 	background-color: #d3ad5c;
 	color: #000;
-	caret-color: #000;
+	caret-color: #e49641;
 }
 .gedit-search-slider .linked:not(.vertical) > entry.warning:focus,
 spinbutton.vertical entry.warning:focus {
@@ -1688,7 +1688,7 @@ spinbutton:not(.vertical) button.down:dir(ltr) {
 	margin-right: -2px;
 }
 spinbutton.vertical {
-	caret-color: #7c6f64;
+	caret-color: #e49641;
 }
 spinbutton.vertical:disabled {
 	color: rgba(212, 190, 152, 0.5);
@@ -1789,7 +1789,7 @@ button.combo:only-child {
 	box-shadow: inset 0 -1px rgba(212, 190, 152, 0.3);
 	background-color: rgba(212, 190, 152, 0.04);
 	color: #d4be98;
-	caret-color: #7c6f64;
+	caret-color: #e49641;
 }
 button.combo:only-child:focus {
 	box-shadow: inset 0 -1px rgba(212, 190, 152, 0.3);
