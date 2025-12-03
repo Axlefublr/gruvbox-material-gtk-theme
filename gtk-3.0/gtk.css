@@ -328,9 +328,11 @@ entry {
 }
 spinbutton:focus:not(.vertical),
 entry:focus {
-	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #7c6f64 100%, transparent 0%) 2/0 0 2px;
-	box-shadow: inset 0 -1px rgba(212, 190, 152, 0.3);
-	background-color: rgba(212, 190, 152, 0.1168);
+	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), rgb(181, 140, 198) 100%, transparent 0%) 2/0 0
+		2px;
+	box-shadow: inset 0 -1px rgb(198, 139, 190);
+	background-color: rgba(181, 140, 198, 0.2);
+	/* «inputbox» */
 }
 spinbutton:drop(active):not(.vertical),
 entry:drop(active) {
