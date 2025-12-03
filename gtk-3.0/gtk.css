@@ -1980,18 +1980,18 @@ searchbar > revealer > box {
 .titlebar button:not(.suggested-action):not(.destructive-action) {
 	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentcolor 0%, transparent 0%) 0 0 0/0 0 0;
 	background-color: transparent;
-	color: rgba(221, 199, 161, 0.7);
+	color: #1f1e1e;
 	box-shadow: none;
-	background-color: transparent;
+	background-color: rgb(211, 173, 92);
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):drop(active),
 .titlebar button:not(.suggested-action):not(.destructive-action):hover {
 	box-shadow: none;
-	background-color: rgba(221, 199, 161, 0.08);
+	background-color: rgb(228, 145, 178);
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):focus {
 	box-shadow: none;
-	background-color: rgba(221, 199, 161, 0.08);
+	background-color: rgb(228, 145, 178);
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):active {
 	box-shadow: none;
