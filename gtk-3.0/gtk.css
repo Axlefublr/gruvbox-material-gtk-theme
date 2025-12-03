@@ -2000,12 +2000,9 @@ searchbar > revealer > box {
 .path-bar-box .nautilus-path-bar button:not(.suggested-action):not(.destructive-action):last-child:dir(ltr),
 .path-bar-box .nautilus-path-bar button:not(.suggested-action):not(.destructive-action):first-child:dir(rtl),
 .titlebar button:not(.suggested-action):not(.destructive-action):checked {
-	border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentcolor 100%, transparent 0%) 0 0 2/0 0
-		2px;
-	background-color: transparent;
-	color: #ddc7a1;
+	background-color: rgb(181, 140, 198);
+	color: #1f1e1e;
 	box-shadow: none;
-	background-color: transparent;
 }
 .path-bar-box .nautilus-path-bar button:drop(active):not(.suggested-action):not(.destructive-action):last-child:dir(ltr),
 .path-bar-box .nautilus-path-bar button:drop(active):not(.suggested-action):not(.destructive-action):first-child:dir(rtl),
@@ -2014,7 +2011,7 @@ searchbar > revealer > box {
 .titlebar button:not(.suggested-action):not(.destructive-action):checked:drop(active),
 .titlebar button:not(.suggested-action):not(.destructive-action):checked:hover {
 	box-shadow: none;
-	background-color: rgba(221, 199, 161, 0.08);
+	background-color: rgb(228, 145, 178);
 }
 .path-bar-box .nautilus-path-bar button:focus:not(.suggested-action):not(.destructive-action):last-child:dir(ltr),
 .path-bar-box .nautilus-path-bar button:focus:not(.suggested-action):not(.destructive-action):first-child:dir(rtl),
