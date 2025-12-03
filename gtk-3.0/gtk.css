@@ -1919,6 +1919,7 @@ searchbar > revealer > box {
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17),
 		inset 0 1px rgba(255, 255, 255, 0.05);
+	/* -------------------titlebar background------------------- */
 	background-color: #32302f;
 	color: #ddc7a1;
 }
