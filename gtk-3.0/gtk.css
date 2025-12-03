@@ -2696,7 +2696,7 @@ notebook > header > tabs > tab {
 	font-weight: 500;
 }
 notebook > header > tabs > tab:hover {
-	background-color: rgba(212, 190, 152, 0.04);
+	background-color: rgba(228, 145, 178, 0.2);
 }
 notebook > header > tabs > tab:disabled {
 	color: rgba(212, 190, 152, 0.3);
