@@ -3262,10 +3262,10 @@ scale slider:disabled {
 		radial-gradient(circle, transparent 10%, transparent 0%);
 }
 scale slider:hover {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(228, 145, 178, 0.4);
 }
 scale slider:focus {
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(228, 145, 178, 0.4);
 }
 scale slider:active {
 	transition:
