@@ -2692,7 +2692,7 @@ notebook > header > tabs > tab {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 0% 0%;
-	color: rgba(212, 190, 152, 0.7);
+	color: rgb(212, 190, 152);
 	font-weight: 500;
 }
 notebook > header > tabs > tab:hover {
