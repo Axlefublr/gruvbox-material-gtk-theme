@@ -818,7 +818,8 @@ popover.background button.model:hover,
 toolbar button:hover,
 button.flat:hover {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(202, 189, 164, 0.13);
+	/* «tool button» */
 }
 .budgie-settings-window buttonbox.inline-toolbar button:focus,
 #MatePanelPopupWindow button:focus,
@@ -828,8 +829,8 @@ popover.messagepopover .popover-action-area button:focus,
 button.sidebar-button:focus,
 scrollbar button:focus,
 combobox > .linked:not(.vertical) > button:focus:not(:only-child),
-spinbutton.vertical button:focus,
-spinbutton:not(.vertical) button:focus,
+/* spinbutton.vertical button:focus, */
+/* spinbutton:not(.vertical) button:focus, */
 .nemo-window .toolbar button:focus,
 .raven .raven-header.top stackswitcher.linked > button:focus,
 .caja-navigation-window box.horizontal > button.toggle.image-button:focus,
@@ -853,7 +854,9 @@ popover.background button.model:focus,
 toolbar button:focus,
 button.flat:focus {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	color: #1f1e1e;
+	background-color: rgb(181, 140, 198);
+	/* «tool button» */
 }
 .budgie-settings-window buttonbox.inline-toolbar button:active,
 #MatePanelPopupWindow button:active,
