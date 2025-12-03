@@ -816,7 +816,7 @@ popover.background button.model:hover,
 toolbar button:hover,
 button.flat:hover {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(228, 145, 178, 0.4);
 }
 .budgie-settings-window buttonbox.inline-toolbar button:focus,
 #MatePanelPopupWindow button:focus,
@@ -851,7 +851,7 @@ popover.background button.model:focus,
 toolbar button:focus,
 button.flat:focus {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(228, 145, 178, 0.4);
 }
 .budgie-settings-window buttonbox.inline-toolbar button:active,
 #MatePanelPopupWindow button:active,
