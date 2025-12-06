@@ -1604,18 +1604,18 @@ button.color {
 }
 
 button.link:link {
-	color: #7c6f64;
+	color: #d3ad5c;
 	box-shadow: none;
 	background-color: transparent;
 }
 button.link:link:drop(active),
 button.link:link:hover {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(228, 145, 178, 0.2);
 }
 button.link:link:focus {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(181, 140, 198, 0.2);
 }
 button.link:link:active {
 	box-shadow: none;
