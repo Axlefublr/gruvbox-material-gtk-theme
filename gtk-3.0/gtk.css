@@ -1931,14 +1931,14 @@ searchbar > revealer > box {
 	color: #ddc7a1;
 }
 .titlebar:disabled {
-	color: rgba(221, 199, 161, 0.5);
+	/* color: rgba(221, 199, 161, 0.5); */
 }
 .titlebar:backdrop {
-	background-color: #282625;
-	color: rgba(221, 199, 161, 0.7);
+	/* background-color: #282625; */
+	/* color: red; */
 }
 .titlebar:backdrop:disabled {
-	color: rgba(221, 199, 161, 0.3);
+	/* color: rgba(221, 199, 161, 0.3); */
 }
 .titlebar .title {
 	padding-left: 12px;
@@ -2054,16 +2054,16 @@ searchbar > revealer > box {
 }
 
 .titlebar button:not(.suggested-action):not(.destructive-action):backdrop {
-	color: rgba(221, 199, 161, 0.5);
+	/* color: rgba(221, 199, 161, 0.5); */
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):backdrop:disabled {
-	color: rgba(221, 199, 161, 0.3);
+	/* color: rgba(221, 199, 161, 0.3); */
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):backdrop:checked {
-	color: rgba(221, 199, 161, 0.7);
+	/* color: rgba(221, 199, 161, 0.7); */
 }
 .titlebar button:not(.suggested-action):not(.destructive-action):backdrop:checked:disabled {
-	color: rgba(221, 199, 161, 0.3);
+	/* color: rgba(221, 199, 161, 0.3); */
 }
 
 .titlebar button.suggested-action:disabled,
