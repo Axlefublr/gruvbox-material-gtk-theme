@@ -650,16 +650,16 @@ button:active {
 }
 button:disabled {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(60, 56, 54, 0.5);
 	color: rgba(212, 190, 152, 0.5);
 }
 button:checked {
-	color: #7c6f64;
+	color: #1f1e1e;
 	box-shadow:
 		0 3px 2px -3px rgba(0, 0, 0, 0.3),
 		0 2px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 3px 0 rgba(0, 0, 0, 0.12);
-	background-color: #443f3c;
+	background-color: rgb(181, 140, 198);
 }
 button:checked:drop(active),
 button:checked:hover {
@@ -667,14 +667,14 @@ button:checked:hover {
 		0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
 		0 4px 3px 0 rgba(0, 0, 0, 0.14),
 		0 1px 6px 0 rgba(0, 0, 0, 0.12);
-	background-color: #46413e;
+	background-color: #e491b2;
 }
 button:checked:focus {
 	box-shadow:
 		0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
 		0 4px 3px 0 rgba(0, 0, 0, 0.14),
 		0 1px 6px 0 rgba(0, 0, 0, 0.12);
-	background-color: #48433f;
+	background-color: #e491b2;
 }
 button:checked:active {
 	box-shadow:
@@ -685,8 +685,8 @@ button:checked:active {
 }
 button:checked:disabled {
 	box-shadow: none;
-	background-color: rgba(212, 190, 152, 0.1904);
-	color: rgba(212, 190, 152, 0.5);
+	background-color: rgba(181, 140, 198, 0.5);
+	color: rgba(31, 30, 30, 0.6);
 }
 button.text-button {
 	min-width: 32px;
