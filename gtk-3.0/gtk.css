@@ -1614,7 +1614,7 @@ button.color {
  * Links
  */
 *:link {
-	color: #7c6f64;
+	color: #d3ad5c;
 }
 *:link:disabled {
 	color: rgba(212, 190, 152, 0.5);
@@ -1628,18 +1628,18 @@ button.color {
 }
 
 button.link:link {
-	color: #7c6f64;
+	color: #d3ad5c;
 	box-shadow: none;
 	background-color: transparent;
 }
 button.link:link:drop(active),
 button.link:link:hover {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(202, 189, 164, 0.11);
 }
 button.link:link:focus {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.08);
+	background-color: rgba(202, 189, 164, 0.14);
 }
 button.link:link:active {
 	box-shadow: none;
@@ -1653,11 +1653,11 @@ button.link:visited {
 button.link:visited:drop(active),
 button.link:visited:hover {
 	box-shadow: none;
-	background-color: rgba(228, 145, 178, 0.08);
+	background-color: rgba(202, 189, 164, 0.11);
 }
 button.link:visited:focus {
 	box-shadow: none;
-	background-color: rgba(228, 145, 178, 0.08);
+	background-color: rgba(202, 189, 164, 0.14);
 }
 button.link:visited:active {
 	box-shadow: none;
