@@ -2378,9 +2378,10 @@ treeview.view header button {
 	border-color: rgba(212, 190, 152, 0.2);
 	border-radius: 0;
 	background-clip: padding-box;
-	color: rgba(212, 190, 152, 0.7);
+	color: #d4be98;
 	box-shadow: none;
 	background-color: transparent;
+	/* «cell» */
 }
 treeview.view header button:drop(active),
 treeview.view header button:hover {
