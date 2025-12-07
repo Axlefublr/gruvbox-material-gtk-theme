@@ -3599,7 +3599,7 @@ scrolledwindow viewport.frame {
 	background-color: transparent;
 }
 overshoot.top {
-	background-image: -gtk-gradient(radial, center top, 0, center top, 0.75, to(rgba(124, 111, 100, 0.24)), to(transparent));
+	background-image: -gtk-gradient(radial, center top, 0, center top, 0.75, to(rgba(124, 111, 100, 0.15)), to(transparent));
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-color: transparent;
@@ -3613,7 +3613,7 @@ overshoot.bottom {
 		0,
 		center bottom,
 		0.75,
-		to(rgba(124, 111, 100, 0.24)),
+		to(rgba(124, 111, 100, 0.15)),
 		to(transparent)
 	);
 	background-repeat: no-repeat;
@@ -3623,7 +3623,7 @@ overshoot.bottom {
 	box-shadow: none;
 }
 overshoot.left {
-	background-image: -gtk-gradient(radial, left center, 0, left center, 0.75, to(rgba(124, 111, 100, 0.24)), to(transparent));
+	background-image: -gtk-gradient(radial, left center, 0, left center, 0.75, to(rgba(124, 111, 100, 0.15)), to(transparent));
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-color: transparent;
@@ -3631,7 +3631,7 @@ overshoot.left {
 	box-shadow: none;
 }
 overshoot.right {
-	background-image: -gtk-gradient(radial, right center, 0, right center, 0.75, to(rgba(124, 111, 100, 0.24)), to(transparent));
+	background-image: -gtk-gradient(radial, right center, 0, right center, 0.75, to(rgba(124, 111, 100, 0.15)), to(transparent));
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-color: transparent;
