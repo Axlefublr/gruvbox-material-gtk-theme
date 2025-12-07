@@ -2909,7 +2909,8 @@ switch {
 	font-size: 0;
 }
 switch:checked {
-	background-color: rgba(124, 111, 100, 0.5);
+	background-color: rgba(181, 140, 198, 0.6);
+	/* «switch» */
 }
 switch:disabled {
 	opacity: 0.5;
@@ -2930,38 +2931,44 @@ switch slider {
 		0 2px 2px -2px rgba(0, 0, 0, 0.3),
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
-	background-color: #3c3836;
+	background-color: #7c6f64;
+	/* «switch» */
 }
 switch:hover slider {
 	box-shadow:
-		0 0 0 10px rgba(212, 190, 152, 0.08),
+		0 0 0 10px rgba(202, 189, 164, 0.13),
 		0 2px 2px -2px rgba(0, 0, 0, 0.3),
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+	/* «switch» */
 }
 switch:focus slider {
 	box-shadow:
-		0 0 0 10px rgba(212, 190, 152, 0.08),
+		0 0 0 10px rgba(202, 189, 164, 0.18),
 		0 2px 2px -2px rgba(0, 0, 0, 0.3),
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+	/* «switch» */
 }
 switch:checked slider {
-	background-color: #7c6f64;
+	background-color: rgb(181, 140, 198);
+	/* «switch» */
 }
 switch:checked:hover slider {
 	box-shadow:
-		0 0 0 10px rgba(124, 111, 100, 0.08),
+		0 0 0 10px rgba(181, 140, 198, 0.2),
 		0 2px 2px -2px rgba(0, 0, 0, 0.3),
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+	/* «switch» */
 }
 switch:checked:focus slider {
 	box-shadow:
-		0 0 0 10px rgba(124, 111, 100, 0.08),
+		0 0 0 10px rgba(181, 140, 198, 0.24),
 		0 2px 2px -2px rgba(0, 0, 0, 0.3),
 		0 1px 2px -1px rgba(0, 0, 0, 0.24),
 		0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+	/* «switch» */
 }
 /**
  * Check and Radio items
