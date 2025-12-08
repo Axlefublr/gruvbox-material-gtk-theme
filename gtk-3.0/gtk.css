@@ -1576,11 +1576,14 @@ modelbutton.flat:drop(active),
 modelbutton.flat:hover,
 .menuitem.button.flat:drop(active),
 .menuitem.button.flat:hover {
-	background-color: rgba(212, 190, 152, 0.08);
+	background-color: rgba(202, 189, 164, 0.12);
+	/* «modelbutton» */
 }
 modelbutton.flat:focus,
 .menuitem.button.flat:focus {
-	background-color: rgba(212, 190, 152, 0.08);
+	color: #1f1e1e;
+	background-color: rgb(181, 140, 198);
+	/* «modelbutton» */
 }
 modelbutton.flat:active,
 .menuitem.button.flat:active {
@@ -1590,6 +1593,14 @@ modelbutton.flat:selected,
 .menuitem.button.flat:selected {
 	background-color: rgba(124, 111, 100, 0.6);
 }
+
+modelbutton.flat:focus radio,
+.menuitem.button.flat:focus radio,
+modelbutton.flat:focus check,
+.menuitem.button.flat:focus check {
+	color: #282828;
+}
+/* «modelbutton» */
 
 modelbutton.flat arrow {
 	transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
@@ -3163,6 +3174,12 @@ radio:checked:not(:indeterminate) {
 	border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.125, to(#b58cc6), to(transparent));
 	/* «radio/check» */
 }
+modelbutton.flat:focus radio:checked:not(:indeterminate),
+.menuitem.button.flat:focus radio:checked:not(:indeterminate) {
+	border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.125, to(#282828), to(transparent));
+	/* «modelbutton» */
+}
+
 radio:checked:not(:indeterminate):disabled {
 	border-image-source: -gtk-gradient(
 		radial,
