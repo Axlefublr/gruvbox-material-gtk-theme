@@ -61,7 +61,7 @@ row.activatable:active {
 	-gtk-outline-radius: 6px;
 }
 *:focus {
-	outline-color: rgba(212, 190, 152, 0.08);
+	outline-color: rgb(181, 140, 198);
 }
 
 /**
