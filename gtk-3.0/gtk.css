@@ -965,9 +965,10 @@ popover.background button.model:checked,
 .titlebar button:checked:not(.suggested-action):not(.destructive-action),
 toolbar button:checked,
 button.flat:checked {
-	color: #7c6f64;
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.12);
+	color: #1f1e1e;
+	background-color: rgb(211, 173, 92);
+	/* «actionbar» */
 }
 .nemo-window .toolbar button:checked:drop(active),
 .raven .raven-header.top stackswitcher.linked > button:checked:drop(active),
@@ -1014,7 +1015,9 @@ popover.background button.model:checked:hover,
 toolbar button:checked:hover,
 button.flat:checked:hover {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.1904);
+	color: #1f1e1e;
+	background-color: rgb(228, 149, 65);
+	/* «actionbar» */
 }
 .nemo-window .toolbar button:checked:focus,
 .raven .raven-header.top stackswitcher.linked > button:checked:focus,
@@ -1039,7 +1042,8 @@ popover.background button.model:checked:focus,
 toolbar button:checked:focus,
 button.flat:checked:focus {
 	box-shadow: none;
-	background-color: rgba(124, 111, 100, 0.1904);
+	background-color: rgb(228, 149, 65);
+	/* «actionbar» */
 }
 .nemo-window .toolbar button:checked:active,
 .raven .raven-header.top stackswitcher.linked > button:checked:active,
